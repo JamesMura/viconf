@@ -1,0 +1,6 @@
+[submodule "emmet-vim"]
+	path = emmet-vim
+	url = ./emmet-vim/
+[submodule "python-mode"]
+	path = python-mode
+	url = ./python-mode/
