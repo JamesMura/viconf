@@ -4,3 +4,6 @@
 [submodule "python-mode"]
 	path = python-mode
 	url = ./python-mode/
+[submodule "vim-test"]
+	path = vim-test
+	url = git@github.com:janko-m/vim-test.git
