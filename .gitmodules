@@ -1,9 +1,9 @@
 [submodule "emmet-vim"]
 	path = emmet-vim
-	url = ./emmet-vim/
+	url = git@github.com:mattn/emmet-vim.git
 [submodule "python-mode"]
 	path = python-mode
-	url = ./python-mode/
+	url = git@github.com:klen/python-mode.git
 [submodule "vim-test"]
 	path = vim-test
 	url = git@github.com:janko-m/vim-test.git
