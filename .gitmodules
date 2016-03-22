@@ -7,3 +7,6 @@
 [submodule "vim-test"]
 	path = vim-test
 	url = git@github.com:janko-m/vim-test.git
+[submodule "vim-airline"]
+	path = vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
