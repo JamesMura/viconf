@@ -10,3 +10,6 @@
 [submodule "vim-airline"]
 	path = vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
+[submodule "stonewashed-themes"]
+	path = stonewashed-themes
+	url = https://github.com/adampasz/stonewashed-themes.git

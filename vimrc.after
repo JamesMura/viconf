@@ -6,3 +6,8 @@ au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 nmap ze :set foldmethod=syntax<CR>
 let g:pymode_rope_goto_definition_cmd = 'e'
+if has("gui_running")
+    colorscheme stonewashed-gui
+  else
+      colorscheme stonewashed-256
+endif
