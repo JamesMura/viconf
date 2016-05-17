@@ -6,8 +6,12 @@ au FileType go nmap <leader>t <Plug>(go-test)
 au FileType go nmap <leader>c <Plug>(go-coverage)
 nmap ze :set foldmethod=syntax<CR>
 let g:pymode_rope_goto_definition_cmd = 'e'
-if has("gui_running")
-    colorscheme stonewashed-gui
-  else
-      colorscheme stonewashed-256
-endif
+syntax enable
+set number
+colorscheme tender
+let g:pymode_lint_ignore="E501,W601"
+set wildmenu
+set wildmode=list:longest
+set completeopt=menu
+let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_jsxhint_exec = 'jsx-jshint-wrapper'
